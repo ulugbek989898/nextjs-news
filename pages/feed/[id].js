@@ -17,7 +17,7 @@ export const Feed = ({pageNumber, articles}) => {
                </div>
            ))}
        </div>
-       <div className={styles.paginator}>
+            <div className={styles.paginator}>
             <div
                 onClick={()=> {
                     if(pageNumber > 1){
